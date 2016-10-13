@@ -22,7 +22,7 @@ public class mergesort {
 				i++;      
 			}//copy operation
 			mergesor(B,B.length);  //sort part 1 recursively
-			mergesor(C,C.length);  //sort part 1 recursively
+			mergesor(C,C.length);  //sort part 2 recursively
 			merge(B,C,arr);        //merge part 1 & part 2
 		}
 	}
